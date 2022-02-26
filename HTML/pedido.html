@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body>
+    <h1>Hacer pedido para Taconautas</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Ingresa tu nombre Taconauta:</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+
+        <label for="mesa">Tu mesa (el número esta abajo):</label><br>
+        <input type="number" id="mesa" name="mesa" placeholder="4"><br><br>
+
+        <p>¿Dónde comerás tus tacos?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+        <label for="Aqui">Aqui</label><br>
+        <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+        <label for="llevar">Llevar</label><br>
+        <input type="radio" id="ircomiendo" name="aquiollevar" value="Ircomiendo">
+        <label for="ircomiendo">Para ir comiendo</label><br><br>
+
+        <p>¿De que quieres tus tacos?</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" id="MercurioCuantos" name="MercurioCuantos" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" id="venus" name="venus" value="Venus">
+        <label for="venus">Venus</label>
+        <input type="number" id="VenusCuantos" name="VenusCuantos" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+        <label for="tierra">Venus</label>
+        <input type="number" id="TierraCuantos" name="TierraCuantos" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" id="marte" name="marte" value="Marte">
+        <label for="marte">Marte</label>
+        <input type="number" id="MarteCuantos" name="MarteCuantos" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" id="jupiter" name="jupiter" value="Jupiter">
+        <label for="jupiter">Jupiter</label>
+        <input type="number" id="JupiterCuantos" name="JupiterCuantos" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" id="saturno" name="saturno" value="Saturno">
+        <label for="saturno">Saturno</label>
+        <input type="number" id="SaturnoCuantos" name="SaturnoCuantos" placeholder="Cuantos?"><br>
+        
+        <input type="checkbox" id="urano" name="urano" value="Urano">
+        <label for="urano">Urano</label>
+        <input type="number" id="UranoCuantos" name="UranoCuantos" placeholder="Cuantos?"><br>
+        
+        <input type="checkbox" id="neptuno" name="neptuno" value="Neptuno">
+        <label for="neptuno">Neptuno</label>
+        <input type="number" id="NeptunoCuantos" name="NeptunoCuantos" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" id="pluton" name="pluton" value="Pluton">
+        <label for="pluton">Plutón</label>
+        <input type="number" id="PlutonCuantos" name="PlutonCuantos" placeholder="Cuantos?"><br><br>
+
+        <p>¿Para tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="Coca-Cola">Coca-Cola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Manzanita">Manzanita</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Sangria">Sangria</option>
+            <option value="Mango">Mango</option>
+            <option value="Guayaba">Guayaba</option>
+        </select>
+        <br><br>
+        <select name="Aguasfrescas" id="Aguasfrescas">
+            <option value="Horchata">Horchata</option>
+            <option value="Jamaica">Jamaica</option>
+        </select>
+        <br><br>
+        <select name="Cerveza" id="Cerveza">
+            <option value="Modelo Especial">Modelo Especial</option>
+            <option value="Victoria">Victoria</option>
+            <option value="Heineken">Heineken</option>
+        </select>
+        <br><br>
+        <input type="reset"><br><br>
+        <input type="submit"><br>
+        <br><br>
+    </form>
+</body>
